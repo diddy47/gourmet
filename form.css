@@ -1,0 +1,77 @@
+@import url('http://bookings.liveres.co.uk/css/responsive_demo1.css');
+/* responsive demo 1 ( with child prompts, cc preauth, menus, enquiries !*/
+
+#wrapper{background-color:#93A9A7;background-image:none;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;width:570px;}
+
+#restaurant span,#sesh span {
+    color: #fff !important;
+    color: #fff;
+}
+
+#summary, .cal_weekend a:hover, .cal_day:hover, .cal_dayheader, table.cal_title td, .cal_nextprev a:link, .cal_today a:link, .cal_nextprev a:link, td.cal_othermonth a:hover, #bookingref ul, #restaurant span, #time span, #requests span, #errorInner, #covers span, span#title, span#surname, span#forename, span#tel, span#email, span#mobile, span#custPostcode, span#title span, span#surname span, span#forename span, span#tel span, span#email span, span#mobile span, span#custPostcode span, #marketinglabel, #marketinglabel2, #tclabel, #colAuth {
+    color: #fff !Important;
+}
+
+#col1, #col1.current, #col1.previous {
+    width: 252px;
+    margin: 10px;
+}
+
+#col3, #col3.current, #col3.previous {
+    width: 288px;
+    clear: none;    
+    float: right;
+    margin: 24px 0 0 0px;
+}
+
+#book,#book:hover {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 2px 0;
+    border: 1px solid #5D6766;
+    color: #5D6766;
+    margin-bottom: 8px;
+    background-image:none;
+    font-size:14px;
+    background:#fff;
+}
+
+#book:hover {
+    color:#fff;
+    background:#5D6766;
+}
+
+table {border-collapse: separate;}
+td.cal_weekend, td.cal_today, td.cal_othermonth, td.cal_day, td.cal_selectday, td.cal_notavail {background-color:#fff;border:1px solid #93A9A7;}
+.cal_weekend, td.cal_weekend a:link, #tclabel a,.cal_day a:link, .cal_day a:visited, .cal_day a:active {color:grey !important;}
+.cal_today a:link {color:grey !important;}
+.cal_othermonth a:link, .cal_othermonth a:visited, .cal_othermonth a:active, td.cal_notavail {color:#93A9A7 !important;}
+#tclabel a {color:#5D6766 !important;font-weight:bold;}
+
+#TextBoxRequests,#requestsname,#book:disabled {visibility:hidden;}
+
+#welcomebackouter {height:15px;}
+
+#bookingref p, #bookingref li, span #bookemail, span#booksms {color:#fff !important;}
+
+#bookingref ul {width:100%;}
+
+#bookingref input[type="button"] {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 2px 0;
+    border: 1px solid #5D6766;
+    color: #5D6766;
+    margin-bottom: 8px;
+    background-image:none;
+    font-size:14px;
+    background:#fff;
+}
+#bookingref input[type="button"]:hover {
+    color:#fff;
+    background:#5D6766;
+}
